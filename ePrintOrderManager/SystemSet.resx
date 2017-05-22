@@ -1,0 +1,2149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="checkBox8.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System" name="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="groupBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label63.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox17.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label39.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox21.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label29.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox12.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="label10.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox14.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label50.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage6.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox13.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage1.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label56.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox14.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox19.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label53.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox23.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton16.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label60.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox14.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox13.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="domainUpDown5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox11.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox23.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label21.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton14.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox18.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox11.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox12.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label19.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Name" xml:space="preserve">
+    <value>SystemSet</value>
+  </data>
+  <data name="tabPage2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label37.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label28.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="linkLabel1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton9.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label26.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox17.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="button3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="folderBrowserDialog1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label16.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label29.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="folderBrowserDialog1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label48.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox18.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="label49.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label30.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label36.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label54.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton17.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label24.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox14.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label11.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label52.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label22.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton13.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox30.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARJJREFUOE/dkj1r
+        g0Ach/1O+QzNGBCEoMShQZx00MFRAoKL+AKOGV0cHERoCEgILuKSDFlEEcFP8it35VKSUrt0ysGDw/E8
+        3p87jnutdTweMcev0zJpmibMcT6fwbjHXNfF7XabFUl0HEf0fY+u6ygkFAQBOBLY7/fI8xx1XWMYhocY
+        Edu2xfV6RdM0yLIMuq5j+779DpRliSRJEEUR4jhGURS4XC74OBwQhiFM04Sqqli+LbFYLCiO48AwDNBR
+        yCkIaZqiqir4vo/dbgdN0+4CEwVBoKIkSbAs6yvAFtkgeJ6H0+lE/7parSCKIkVRFKzXayr+kJ9Dtm1D
+        lmVsNhvwPE/5U3y+Z3Yi9n2tV/9/03wCfBkwzETtkFgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label39.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label36.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label25.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label59.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label37.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label42.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox13.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label25.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label41.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label55.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox21.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label23.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label58.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label64.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label35.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage2.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="radioButton11.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label47.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label53.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox14.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label63.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox20.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox24.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox3.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="tabControl1.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label42.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUhJREFUOE+tkr9K
+        w1AUxm9ddPAlgoOCo4/h7qqDU0CaoTQZ2orgIxR8AhH6AmraNC0diu6ii+jin2AcNEnTJk0+c67e0EIT
+        MXjDR/7d8zvf+bglNrMGp9vAssPub1fZ0orPJCliN3cS29x4YOftLba+9sT2qq3SbE36XKn0oGl9rtr+
+        Di7P6mgeHULXH9FqyuhfdHByvAtFUbAQoGlddIdDXmzZ9tx9PA34exzH2QBV7XGA5X5ywJvn4H3k4sMf
+        gQBRHHFlOpgDECQRQQRgMg0RJ9evgNeksNaop9KNDrxgwrvnAijEdIQfBzaNMPbhhwHCKAKtTAcC8OKQ
+        g8ac2obBi3MBIoPnBGC5Ds/gTw4E4DuDAg7+PQOau9AIIgM6A7bnYnB9BdM0cVAucy08xvSRMqDNQrRZ
+        lmVUVTW/cJYouuR2yrRQ8McXAtzZX+QNmtAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox25.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAALEgAA
+        CxIB0t1+/AAAAO9JREFUOE9j/P//PwNFAGQAJRiuGegKkFPwYmwWgQ0AaSQGQNWhuBiu2W7i+f/I2B7I
+        d5h04b/j5Av/naZc+O8CxHgNcJt28b/H9Iv/Padf+u814xLR3oG7IHTe1f/h86/+j1xwDWYTXl/BXAM3
+        IGPlLbitIJ3oXsLGhwY6JACRAzJw9pX/gXOAGBcNkgNirAbkrL71n1iM1YCefY/+90IxiN2zF4j3PQaK
+        AfHexwg2UA6rAesvvv6/DgmD+DAxGBvGhxtw7cVXeBicf/z5P1H4yWeIC2ApEcR59fkXSRhuACyNE8oL
+        6PJgyynJiSC9AOckh+drVYhAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="pictureBox8.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox9.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label39.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage5.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="tabControl1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox9.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox8.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox14.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMtJREFUOE+tU7ER
+        gzAM9DJZIFNQZoa03gXuKDIEXbpMwASUrjIBfYqPZGEiiI2Vu+juOZD41wtk58oBKn3jfOHcNiiDhKUC
+        d73B9UEQBH4EfEevapFIRAtMhNGnYr47OyLhdlIiunvtPrmLAjJevJIDFTNVn/fVEYYTMKzfIlLKAkxm
+        LOPg0URy6C0Cr1nIu+5MtgnsydQ9kesCujv9CW3d5uDAukkgu3G5LcztQWGT7Zv4l7NwIKJLci5+DBmF
+        Zxfy51nylUjkkgjR34DNhCiv8xZRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="domainUpDown1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="comboBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label28.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox11.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="groupBox4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox13.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label38.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label31.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage1.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label55.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton16.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMtJREFUOE+tU7ER
+        gzAM9DJZIFNQZoa03gXuKDIEXbpMwASUrjIBfYqPZGEiiI2Vu+juOZD41wtk58oBKn3jfOHcNiiDhKUC
+        d73B9UEQBH4EfEevapFIRAtMhNGnYr47OyLhdlIiunvtPrmLAjJevJIDFTNVn/fVEYYTMKzfIlLKAkxm
+        LOPg0URy6C0Cr1nIu+5MtgnsydQ9kesCujv9CW3d5uDAukkgu3G5LcztQWGT7Zv4l7NwIKJLci5+DBmF
+        Zxfy51nylUjkkgjR34DNhCiv8xZRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label18.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox7.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="button2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label46.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabControl1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label11.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox14.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label31.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox12.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox10.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label61.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label28.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label37.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label62.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label43.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="button2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label17.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label30.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox8.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label58.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox15.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox13.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox14.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label59.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox24.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAMtJREFUOE+tU7ER
+        gzAM9DJZIFNQZoa03gXuKDIEXbpMwASUrjIBfYqPZGEiiI2Vu+juOZD41wtk58oBKn3jfOHcNiiDhKUC
+        d73B9UEQBH4EfEevapFIRAtMhNGnYr47OyLhdlIiunvtPrmLAjJevJIDFTNVn/fVEYYTMKzfIlLKAkxm
+        LOPg0URy6C0Cr1nIu+5MtgnsydQ9kesCujv9CW3d5uDAukkgu3G5LcztQWGT7Zv4l7NwIKJLci5+DBmF
+        Zxfy51nylUjkkgjR34DNhCiv8xZRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label45.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label14.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label14.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox17.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox21.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEdJREFUOE9jYBgE
+        4P9/BoYGMjBIHxiANIM4pOKG/w0NIL1AAw4cOEAyBumDG/CfRACycNSA4RcG5CVleEICagcmSXIxxZkZ
+        AGN2aWLJM+MdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="groupBox6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="textBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox30.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="imageList1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 17</value>
+  </data>
+  <data name="label20.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox25.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label53.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="folderBrowserDialog1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="pictureBox25.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton12.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox15.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox20.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox4.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton11.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEdJREFUOE9jYBgE
+        4P9/BoYGMjBIHxiANIM4pOKG/w0NIL1AAw4cOEAyBumDG/CfRACycNSA4RcG5CVleEICagcmSXIxxZkZ
+        AGN2aWLJM+MdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label54.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox16.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox9.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox19.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="textBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label12.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox17.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox10.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox12.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="label50.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="radioButton14.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label64.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label44.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox22.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox6.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox7.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="radioButton6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox16.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox15.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox26.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox15.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage5.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage1.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="groupBox3.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton17.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox13.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox15.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="domainUpDown3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox19.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARJJREFUOE/dkj1r
+        g0Ach/1O+QzNGBCEoMShQZx00MFRAoKL+AKOGV0cHERoCEgILuKSDFlEEcFP8it35VKSUrt0ysGDw/E8
+        3p87jnutdTweMcev0zJpmibMcT6fwbjHXNfF7XabFUl0HEf0fY+u6ygkFAQBOBLY7/fI8xx1XWMYhocY
+        Edu2xfV6RdM0yLIMuq5j+779DpRliSRJEEUR4jhGURS4XC74OBwQhiFM04Sqqli+LbFYLCiO48AwDNBR
+        yCkIaZqiqir4vo/dbgdN0+4CEwVBoKIkSbAs6yvAFtkgeJ6H0+lE/7parSCKIkVRFKzXayr+kJ9Dtm1D
+        lmVsNhvwPE/5U3y+Z3Yi9n2tV/9/03wCfBkwzETtkFgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label22.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label34.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label50.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label25.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label23.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox12.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="label15.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox11.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label26.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="linkLabel1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label20.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label56.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox2.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="radioButton10.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label61.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label29.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label17.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label27.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib">
+    <value>Invariant Language (Invariant Country)</value>
+  </data>
+  <data name="pictureBox15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="groupBox1.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="linkLabel1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox5.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label21.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label40.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox26.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox11.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label33.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label41.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label20.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label38.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label46.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label44.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox14.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox4.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label36.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label59.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="label2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label43.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="groupBox5.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="label15.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label58.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhdJREFUOE+l019I
+        U1EcB/Cfb0MWjILocSwIHyIoCKJCiNZISISglz2EMFk9BBtt4RpYyySMElzLzamx/tiDSoxykqN0uI3N
+        rdEykthLFmISbhTN1GL3frvn3LU4ET3YgQ8/fod7vudwLqcukYiDlCFLskqWqKJUSamyJPEqVVhfIbla
+        V4olstlsdWwdzabTuJMvc0MvVQM5VfBFGf3ZMgIZlX+Wza3B6/XCbrfzjSmVTOLB/Cp3NbPG/er/Vu/P
+        r4sB8ZkZtL+SuF2PwDU9l9H4VMa+J+Dz0U8bSJZUzz5+FwOmp6bgeI1/6nwrwZ//DEtPCnTwrhgQjU5i
+        b9jIHRk5i4uZGM7Fwgi+/wFHrIjmYAHUPP7byUkxYCISgWnCxNU767HNtR1b7DrQaReoVdmRsWRA1lyN
+        cInhcBjmcTNHpwjUpLAQtOe1aPD2YmtXBBpPFuReAF1aBHmWxBOMjoxC36Hn+OIDikZFC8F4z4i26TZY
+        41YcHuvDjqE5aPv/CHg4PMw/5g5VA1iIQufQQXNGA1fKBU/OA3fWDWfaKZ4gFAqBjikLmKNVJqUyJ9TQ
+        3ZcNKHy5hdKGH8vfbosBg4MDMFzQcw3thpo9HTtx/Pp+tPpMuPLYjIWvPnwo+7Cy3icGBAIBfjymO98J
+        35suhArXuLF33Ygu3kBs6SYSyz2YK/YiXwyKAeyXbEbtLbD3wJrN4I/pf8dP1j0/NsLod+4AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="pictureBox20.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label31.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label43.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage3.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox12.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label51.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton17.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label34.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage6.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label57.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="imageList1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox8.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox13.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label51.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label27.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="button3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton10.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label48.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label52.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="comboBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label35.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox10.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label51.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label62.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox10.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox7.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label33.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="comboBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label63.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj0yLjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAABg
+        CgAAAk1TRnQBSQFMAgEBBAEAAQUBAAEEAQABEAEAARABAAT/AQkBEAj/AUIBTQE2AQQGAAE2AQQCAAEo
+        AwABQAMAASADAAEBAQABCAYAAQgYAAGAAgABgAMAAoABAAGAAwABgAEAAYABAAKAAgADwAEAAcAB3AHA
+        AQAB8AHKAaYBAAEzBQABMwEAATMBAAEzAQACMwIAAxYBAAMcAQADIgEAAykBAANVAQADTQEAA0IBAAM5
+        AQABgAF8Af8BAAJQAf8BAAGTAQAB1gEAAf8B7AHMAQABxgHWAe8BAAHWAucBAAGQAakBrQIAAf8BMwMA
+        AWYDAAGZAwABzAIAATMDAAIzAgABMwFmAgABMwGZAgABMwHMAgABMwH/AgABZgMAAWYBMwIAAmYCAAFm
+        AZkCAAFmAcwCAAFmAf8CAAGZAwABmQEzAgABmQFmAgACmQIAAZkBzAIAAZkB/wIAAcwDAAHMATMCAAHM
+        AWYCAAHMAZkCAALMAgABzAH/AgAB/wFmAgAB/wGZAgAB/wHMAQABMwH/AgAB/wEAATMBAAEzAQABZgEA
+        ATMBAAGZAQABMwEAAcwBAAEzAQAB/wEAAf8BMwIAAzMBAAIzAWYBAAIzAZkBAAIzAcwBAAIzAf8BAAEz
+        AWYCAAEzAWYBMwEAATMCZgEAATMBZgGZAQABMwFmAcwBAAEzAWYB/wEAATMBmQIAATMBmQEzAQABMwGZ
+        AWYBAAEzApkBAAEzAZkBzAEAATMBmQH/AQABMwHMAgABMwHMATMBAAEzAcwBZgEAATMBzAGZAQABMwLM
+        AQABMwHMAf8BAAEzAf8BMwEAATMB/wFmAQABMwH/AZkBAAEzAf8BzAEAATMC/wEAAWYDAAFmAQABMwEA
+        AWYBAAFmAQABZgEAAZkBAAFmAQABzAEAAWYBAAH/AQABZgEzAgABZgIzAQABZgEzAWYBAAFmATMBmQEA
+        AWYBMwHMAQABZgEzAf8BAAJmAgACZgEzAQADZgEAAmYBmQEAAmYBzAEAAWYBmQIAAWYBmQEzAQABZgGZ
+        AWYBAAFmApkBAAFmAZkBzAEAAWYBmQH/AQABZgHMAgABZgHMATMBAAFmAcwBmQEAAWYCzAEAAWYBzAH/
+        AQABZgH/AgABZgH/ATMBAAFmAf8BmQEAAWYB/wHMAQABzAEAAf8BAAH/AQABzAEAApkCAAGZATMBmQEA
+        AZkBAAGZAQABmQEAAcwBAAGZAwABmQIzAQABmQEAAWYBAAGZATMBzAEAAZkBAAH/AQABmQFmAgABmQFm
+        ATMBAAGZATMBZgEAAZkBZgGZAQABmQFmAcwBAAGZATMB/wEAApkBMwEAApkBZgEAA5kBAAKZAcwBAAKZ
+        Af8BAAGZAcwCAAGZAcwBMwEAAWYBzAFmAQABmQHMAZkBAAGZAswBAAGZAcwB/wEAAZkB/wIAAZkB/wEz
+        AQABmQHMAWYBAAGZAf8BmQEAAZkB/wHMAQABmQL/AQABzAMAAZkBAAEzAQABzAEAAWYBAAHMAQABmQEA
+        AcwBAAHMAQABmQEzAgABzAIzAQABzAEzAWYBAAHMATMBmQEAAcwBMwHMAQABzAEzAf8BAAHMAWYCAAHM
+        AWYBMwEAAZkCZgEAAcwBZgGZAQABzAFmAcwBAAGZAWYB/wEAAcwBmQIAAcwBmQEzAQABzAGZAWYBAAHM
+        ApkBAAHMAZkBzAEAAcwBmQH/AQACzAIAAswBMwEAAswBZgEAAswBmQEAA8wBAALMAf8BAAHMAf8CAAHM
+        Af8BMwEAAZkB/wFmAQABzAH/AZkBAAHMAf8BzAEAAcwC/wEAAcwBAAEzAQAB/wEAAWYBAAH/AQABmQEA
+        AcwBMwIAAf8CMwEAAf8BMwFmAQAB/wEzAZkBAAH/ATMBzAEAAf8BMwH/AQAB/wFmAgAB/wFmATMBAAHM
+        AmYBAAH/AWYBmQEAAf8BZgHMAQABzAFmAf8BAAH/AZkCAAH/AZkBMwEAAf8BmQFmAQAB/wKZAQAB/wGZ
+        AcwBAAH/AZkB/wEAAf8BzAIAAf8BzAEzAQAB/wHMAWYBAAH/AcwBmQEAAf8CzAEAAf8BzAH/AQAC/wEz
+        AQABzAH/AWYBAAL/AZkBAAL/AcwBAAJmAf8BAAFmAf8BZgEAAWYC/wEAAf8CZgEAAf8BZgH/AQAC/wFm
+        AQABIQEAAaUBAANfAQADdwEAA4YBAAOWAQADywEAA7IBAAPXAQAD3QEAA+MBAAPqAQAD8QEAA/gBAAHw
+        AfsB/wEAAaQCoAEAA4ADAAH/AgAB/wMAAv8BAAH/AwAB/wEAAf8BAAL/AgAD//8A/wD/AP8APAABigEA
+        AYoBAAGyAQABihQADUsZAAGKAQABsgEAAYoBAAGKEgAOUgFLAgAKSw8AAbIUAAFSAXoBUgGgCHoBWAGg
+        AVIBSwEAC1IBSw8AAWUKAATrBQABUgF6AVIBoAh6AVgBoAFSAUsCUgGgCXoBUgEqCAABigKyArgB2wHV
+        AWUHAAHrAfgC6gISAusDAAFSAXoBUgGgB5oBoAFYAaABUgFLAlIBegGgCHoBWAEqAgAB+QsAAYoB3AFl
+        BAAC6wHsAQcBbQETAuoBbQESAusBAAFSAXoBUgmgAXkBoAFSAUsCUgFYCKABmgFZASoCAAH5AcMBGgGa
+        AXoBUwQxAwAB3AMAAuwB7wEHAuwBbQRDARIB6wHqAesBUgF6AVIJoAF6AaABUgFLAVIBWAFSCaACeQEq
+        AQAB+QH2AcMBGgF6AVkBMgMxAwAB3AIAAewBBwH3Au0B7wG8Ae8B7AHrAW0BFAJDAewB6wFSAXoBUgH/
+        BfYD/wGaAfYBUgFLAVIBegFSCaABegGgASoBAAH5Af8BwwEaAZoBegFZAzEDAAHcAgAB7AGSAe8BBwHx
+        A/IB8QHwArwB7wJtAewBUgGgAZoMUgEAAVIBmgFSAXkC/wH2Bf8BmgH/ASoBAAH5Af8B9gHDARoBmgF6
+        AVMCMQMAAdwCAAHsAfAI8gTxAQcB7AFSBqAF/wEqAwABUgGgAVgLUgEqAQAB+QL/AsMBmgF6AVkBMgEx
+        AwAB3AMAAgcI8gMHAgABUgH/BKAB/wVSASoDAAFSBqAF/wFSAUsCAAH5A/8BwwEaAZoBegFTATIDAAHc
+        BQAIBwYAAVID/wH2AVIJAAFSAf8EoAH/BlIDAAv5AgAB3BQABFILAAFSBP8BUgkAAfkBoAGaAXoBZQcA
+        AYoB3AFlIwAEUgsAA/kCAAGKArICuAHbAdUBZT4AAWUDAAFCAU0BPgcAAT4DAAEoAwABQAMAASADAAEB
+        AQABAQYAAQEWAAP/gQAG/wH+AQEC/wHAAQEC/wH+AQEC/wGAAQABwAEPAf8BzwL/AgABgAEHAfwBBwH+
+        AR8DAAEDAfgBAwH4AQcDAAEDAQABAQHgAQEDAAEDAQABEQGABAABAQEAAREFAAEBAQABEQMAAQEBAAEB
+        AQABEQMAAQcBAAEBAQABEQGAAQMBAAEHAQABAwEAAREB4AEfAYEB/wEAAQcBAAERAv8BwwH/AYEB/wEA
+        AQEE/wHDAf8BiAEDBv8B/AEHFgAL
+</value>
+  </data>
+  <data name="tabPage3.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAEdJREFUOE9jYBgE
+        4P9/BoYGMjBIHxiANIM4pOKG/w0NIL1AAw4cOEAyBumDG/CfRACycNSA4RcG5CVleEICagcmSXIxxZkZ
+        AGN2aWLJM+MdAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="label57.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox3.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label64.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label12.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="pictureBox18.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label32.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox9.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="button3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox11.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox15.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="imageList1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label10.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage4.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="groupBox1.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox9.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="tabPage4.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label42.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox6.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox16.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabControl1.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="textBox3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown4.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label56.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label49.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox10.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox10.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox21.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox5.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox11.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="button4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label35.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton15.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label16.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox25.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox24.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label34.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="button2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton5.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton13.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox7.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox8.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="radioButton3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label62.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="textBox3.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage4.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="pictureBox26.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk1uBAAAAAAAADYAAAAoAAAAEwAAABIAAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAAyNDUyNDU
+        yNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUAAAAyNDUyNDU
+        yNDUyNDUxs7SvsXJsrm9rbS4rbS4sLe6t77CwMjMxs7SyNDUyNDUyNDUyNDUyNDUyNDUAAAAyNDUyNDU
+        yNDUxs7St77ClJqddnt+a3Bya3BycnZ5gIWIk5mcqK+yucHExc3RyNDUyNDUyNDUyNDUAAAAyNDUyNDU
+        yNDUwMjMsbSuzcmxzsOlzb+iwbien52MaGtlUlVWZ2ttiI2QrbO3w8rOyNDUyNDUyNDUAAAAyNDUyNDU
+        yNDUwcC4//fT/+e+9te44riq5ry87Mev/+jA5N+/g4V3T1JUfYOFsbi8x8/TyNDUyNDUAAAAyNDUyNDU
+        x8/T0rub/OzC9dzC4cPD6NLSAJkAv+Ozv+Ozv+Oz//vbsrOgWl5gnaOmw8vPyNDUyNDUAAAAyNDUyNDU
+        w8rO5LyL88iY7dzc6NLS6NLSAJkAAJkAAJkAAJkAr9+b/e3EZGdkj5SXvsXJyNDUyNDUAAAAyNDUyNDU
+        w8XE+sSL+/Hp9u3t69fX4bOzAJkAAJkAULlQz+rGQLM6/NekdnVshYqNucHEyNDUyNDUAAAAyNDUyNDU
+        z8Oy/9+9///+////1qys6ry8n8aMv92xQLNAr96mr9+ez9OSlop4en6BtLy/yNDUyNDUAAAAyNDUyNDU
+        2cau//bg///17NnV0KGh57y8UK9G///1cMZwAJkAAJkA/+G0no54b3R2r7a5yNDUyNDUAAAAyNDUyNDU
+        7tu5///p///s7NnP6tTN4szMqsWVEJ8QIKYgAJkAAJkA/+rCzcOmZmpsqrG0yNDUyNDUAAAAyNDUyNDU
+        /+/J///g///j///n///r6vj67+borNOjrNOjcMZwAJkA//fazMmvXWBipayvyNDUyNDUAAAAyNDUyNDU
+        //LN///e///e/P/g5f/05P/63/z8/fr6/fr6///9///z//7v///eWFtdo6qtyNDUyNDUAAAAyNDUyNDU
+        ++S9/+C8/+C82e7W2e7W2e7W2e7W2e7W2e7W4e7w/OS3//vY///eWFtdo6qtyNDUyNDUAAAAyNDUyNDU
+        y87P08zD0MvCqeL/3///3///3///3///5f//qeL/+cOJ/M2Z//XQa29xqrG0yNDUyNDUAAAAyNDUyNDU
+        yNDUyNDUyNDUus7YqeL/qeL/qeL/u/z/wP//qeL/+8aP/sqV/8+dmqCju8LGyNDUyNDUAAAAyNDUyNDU
+        yNDUyNDUyNDUyNDUyNDUyNDUyNDUqeL/qeL/qeL/x7im2MOrysO5v8bKxs7SyNDUyNDUAAAAyNDUyNDU
+        yNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUyNDUAAAA
+</value>
+  </data>
+  <data name="label41.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label48.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox24.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="textBox2.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage2.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox18.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage2.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radioButton10.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox13.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox23.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUhJREFUOE+tkr9K
+        w1AUxm9ddPAlgoOCo4/h7qqDU0CaoTQZ2orgIxR8AhH6AmraNC0diu6ii+jin2AcNEnTJk0+c67e0EIT
+        MXjDR/7d8zvf+bglNrMGp9vAssPub1fZ0orPJCliN3cS29x4YOftLba+9sT2qq3SbE36XKn0oGl9rtr+
+        Di7P6mgeHULXH9FqyuhfdHByvAtFUbAQoGlddIdDXmzZ9tx9PA34exzH2QBV7XGA5X5ywJvn4H3k4sMf
+        gQBRHHFlOpgDECQRQQRgMg0RJ9evgNeksNaop9KNDrxgwrvnAijEdIQfBzaNMPbhhwHCKAKtTAcC8OKQ
+        g8ac2obBi3MBIoPnBGC5Ds/gTw4E4DuDAg7+PQOau9AIIgM6A7bnYnB9BdM0cVAucy08xvSRMqDNQrRZ
+        lmVUVTW/cJYouuR2yrRQ8McXAtzZX+QNmtAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="pictureBox26.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox6.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label24.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label32.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox10.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="domainUpDown5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox9.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton16.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton6.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox13.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabPage5.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label60.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAO9JREFUOE9jYKAW
+        OLdI8T8yJslckEZ0cGyWxH+iDAEphIA5aPj/f5AcNoxiMNiAz0DNn3swMYa7IIbOrZJEuA5swOuW/48O
+        +uO0EZsrlhbxQAwBG3C9Baz51v5shJ2/v2OxHyj0vAUsjmLA36v5YAO+f+jEEhZoYXM86v/vn9NQDXi0
+        2en/yQUKIHP///8+BS9+vi/o/7k90agGnF+k+v/6DnuI7cDwwImBzn+/ywmhGRYGx2ZJ/v/wpBJiwONq
+        3Ph+9f97m7AYcHyONETzdWAgEsD7Z2qgugDkigPTJP4Ti+dU4kihIAliMFHJm66KAORP5xRdT7ByAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="textBox1.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label21.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label45.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton15.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton13.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabControl1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox23.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label3.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label38.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label22.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton15.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label61.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAARJJREFUOE/dkj1r
+        g0Ach/1O+QzNGBCEoMShQZx00MFRAoKL+AKOGV0cHERoCEgILuKSDFlEEcFP8it35VKSUrt0ysGDw/E8
+        3p87jnutdTweMcev0zJpmibMcT6fwbjHXNfF7XabFUl0HEf0fY+u6ygkFAQBOBLY7/fI8xx1XWMYhocY
+        Edu2xfV6RdM0yLIMuq5j+779DpRliSRJEEUR4jhGURS4XC74OBwQhiFM04Sqqli+LbFYLCiO48AwDNBR
+        yCkIaZqiqir4vo/dbgdN0+4CEwVBoKIkSbAs6yvAFtkgeJ6H0+lE/7parSCKIkVRFKzXayr+kJ9Dtm1D
+        lmVsNhvwPE/5U3y+Z3Yi9n2tV/9/03wCfBkwzETtkFgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label60.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label40.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label27.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="domainUpDown2.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox12.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label19.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label18.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAUhJREFUOE+tkr9K
+        w1AUxm9ddPAlgoOCo4/h7qqDU0CaoTQZ2orgIxR8AhH6AmraNC0diu6ii+jin2AcNEnTJk0+c67e0EIT
+        MXjDR/7d8zvf+bglNrMGp9vAssPub1fZ0orPJCliN3cS29x4YOftLba+9sT2qq3SbE36XKn0oGl9rtr+
+        Di7P6mgeHULXH9FqyuhfdHByvAtFUbAQoGlddIdDXmzZ9tx9PA34exzH2QBV7XGA5X5ywJvn4H3k4sMf
+        gQBRHHFlOpgDECQRQQRgMg0RJ9evgNeksNaop9KNDrxgwrvnAijEdIQfBzaNMPbhhwHCKAKtTAcC8OKQ
+        g8ac2obBi3MBIoPnBGC5Ds/gTw4E4DuDAg7+PQOau9AIIgM6A7bnYnB9BdM0cVAucy08xvSRMqDNQrRZ
+        lmVUVTW/cJYouuR2yrRQ8McXAtzZX+QNmtAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="label19.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox22.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox11.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox7.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label5.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label46.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label52.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label47.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton14.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="radioButton5.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label8.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label49.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox15.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox15.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="pictureBox9.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label17.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label13.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="checkedListBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage3.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="domainUpDown3.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox22.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label24.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label15.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox8.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label40.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox10.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox4.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox22.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhdJREFUOE+l019I
+        U1EcB/Cfb0MWjILocSwIHyIoCKJCiNZISISglz2EMFk9BBtt4RpYyySMElzLzamx/tiDSoxykqN0uI3N
+        rdEykthLFmISbhTN1GL3frvn3LU4ET3YgQ8/fod7vudwLqcukYiDlCFLskqWqKJUSamyJPEqVVhfIbla
+        V4olstlsdWwdzabTuJMvc0MvVQM5VfBFGf3ZMgIZlX+Wza3B6/XCbrfzjSmVTOLB/Cp3NbPG/er/Vu/P
+        r4sB8ZkZtL+SuF2PwDU9l9H4VMa+J+Dz0U8bSJZUzz5+FwOmp6bgeI1/6nwrwZ//DEtPCnTwrhgQjU5i
+        b9jIHRk5i4uZGM7Fwgi+/wFHrIjmYAHUPP7byUkxYCISgWnCxNU767HNtR1b7DrQaReoVdmRsWRA1lyN
+        cInhcBjmcTNHpwjUpLAQtOe1aPD2YmtXBBpPFuReAF1aBHmWxBOMjoxC36Hn+OIDikZFC8F4z4i26TZY
+        41YcHuvDjqE5aPv/CHg4PMw/5g5VA1iIQufQQXNGA1fKBU/OA3fWDWfaKZ4gFAqBjikLmKNVJqUyJ9TQ
+        3ZcNKHy5hdKGH8vfbosBg4MDMFzQcw3thpo9HTtx/Pp+tPpMuPLYjIWvPnwo+7Cy3icGBAIBfjymO98J
+        35suhArXuLF33Ygu3kBs6SYSyz2YK/YiXwyKAeyXbEbtLbD3wJrN4I/pf8dP1j0/NsLod+4AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="label13.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox12.DrawGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label23.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="tabPage6.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox30.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton12.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox14.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>8, 8</value>
+  </data>
+  <data name="label10.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label44.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox15.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label45.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label8.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown2.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="pictureBox30.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label9.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label32.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label57.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label16.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="radioButton8.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pictureBox12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAhdJREFUOE+l019I
+        U1EcB/Cfb0MWjILocSwIHyIoCKJCiNZISISglz2EMFk9BBtt4RpYyySMElzLzamx/tiDSoxykqN0uI3N
+        rdEykthLFmISbhTN1GL3frvn3LU4ET3YgQ8/fod7vudwLqcukYiDlCFLskqWqKJUSamyJPEqVVhfIbla
+        V4olstlsdWwdzabTuJMvc0MvVQM5VfBFGf3ZMgIZlX+Wza3B6/XCbrfzjSmVTOLB/Cp3NbPG/er/Vu/P
+        r4sB8ZkZtL+SuF2PwDU9l9H4VMa+J+Dz0U8bSJZUzz5+FwOmp6bgeI1/6nwrwZ//DEtPCnTwrhgQjU5i
+        b9jIHRk5i4uZGM7Fwgi+/wFHrIjmYAHUPP7byUkxYCISgWnCxNU767HNtR1b7DrQaReoVdmRsWRA1lyN
+        cInhcBjmcTNHpwjUpLAQtOe1aPD2YmtXBBpPFuReAF1aBHmWxBOMjoxC36Hn+OIDikZFC8F4z4i26TZY
+        41YcHuvDjqE5aPv/CHg4PMw/5g5VA1iIQufQQXNGA1fKBU/OA3fWDWfaKZ4gFAqBjikLmKNVJqUyJ9TQ
+        3ZcNKHy5hdKGH8vfbosBg4MDMFzQcw3thpo9HTtx/Pp+tPpMuPLYjIWvPnwo+7Cy3icGBAIBfjymO98J
+        35suhArXuLF33Ygu3kBs6SYSyz2YK/YiXwyKAeyXbEbtLbD3wJrN4I/pf8dP1j0/NsLod+4AAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="pictureBox1.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label33.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabPage6.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tabControl1.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="groupBox10.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox4.GridSize" type="System.Drawing.Size, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="groupBox1.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="checkBox7.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label47.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="groupBox2.SnapToGrid" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label54.DefaultModifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label55.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label30.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="label4.Modifiers" type="System.CodeDom.MemberAttributes, System">
+    <value>Private</value>
+  </data>
+  <data name="domainUpDown6.Locked" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+</root>

@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.10.3077</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{75AB34C8-F382-4BA1-A916-9DB7DB5B72C2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>ePrintOrderManager</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ePrintOrderManager</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>ePrintOrderManager.ePrintMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile />
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn />
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.SHDocVw">
+      <Name>AxInterop.SHDocVw</Name>
+      <HintPath>.\AxInterop.SHDocVw.DLL</HintPath>
+    </Reference>
+    <Reference Include="Dart.PowerTCP.Ftp">
+      <Name>Dart.PowerTCP.Ftp</Name>
+      <HintPath>.\Dart.PowerTCP.Ftp.DLL</HintPath>
+    </Reference>
+    <Reference Include="GlacialControls">
+      <Name>GlacialControls</Name>
+      <HintPath>.\GlacialControls.DLL</HintPath>
+    </Reference>
+    <Reference Include="Interop.SHDocVw">
+      <HintPath>.\Interop.SHDocVw.DLL</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Name>mscorlib</Name>
+      <HintPath>mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+      <HintPath>System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+      <HintPath>System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <HintPath>System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+      <HintPath>System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+      <HintPath>System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+      <HintPath>System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.Xml</Name>
+      <HintPath>System.Xml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager.cn.com.print2000.output\ePrintOutputLogin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager.cn.print2000.update\ePrintOutputLogin.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\AddBulletin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\AllUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\editBulletin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\editUserLevel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\EditUserPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintDown2.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintDownGetDate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintLog.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintNotice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintUnzip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ePrintWebHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\GetOutputNetInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\LogFileInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\myprogress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\OneJetDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\OutputLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ReceiveData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ScreenProtectLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ScreenProtectLogin2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\SendFileToUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\SystemSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\UpdateDown.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ViewInfoWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ViewLogFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\ViewRemark.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ePrintOrderManager\_fileinfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="ePrintOrderManager.exe.licenses" />
+    <EmbeddedResource Include="ePrintOrderManager.sound.wav" />
+    <EmbeddedResource Include="ePrintOrderManager\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\AddBulletin.resx">
+      <DependentUpon>AddBulletin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\AllUserInfo.resx">
+      <DependentUpon>AllUserInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\editBulletin.resx">
+      <DependentUpon>editBulletin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\editUserLevel.resx">
+      <DependentUpon>editUserLevel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\EditUserPassword.resx">
+      <DependentUpon>EditUserPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ePrintMain.resx">
+      <DependentUpon>ePrintMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ePrintNotice.resx">
+      <DependentUpon>ePrintNotice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ePrintService.resx">
+      <DependentUpon>ePrintService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ePrintUpdate.resx">
+      <DependentUpon>ePrintUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ePrintWebHome.resx">
+      <DependentUpon>ePrintWebHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\LogFileInfo.resx">
+      <DependentUpon>LogFileInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\OutputLogin.resx">
+      <DependentUpon>OutputLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ScreenProtectLogin.resx">
+      <DependentUpon>ScreenProtectLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ScreenProtectLogin2.resx">
+      <DependentUpon>ScreenProtectLogin2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\SendFileToUser.resx">
+      <DependentUpon>SendFileToUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\SystemSet.resx">
+      <DependentUpon>SystemSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ViewInfoWindow.resx">
+      <DependentUpon>ViewInfoWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ViewLogFile.resx">
+      <DependentUpon>ViewLogFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ePrintOrderManager\ViewRemark.resx">
+      <DependentUpon>ViewRemark.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico\ePrint2.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ico\ePrintLogo.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ico\offline.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ico\online.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="res\readme.txt" />
+    <Content Include="ico\stop.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ePrint">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="res\license.rtf" />
+    <None Include="res\软件最终用户许可协议.rtf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>
