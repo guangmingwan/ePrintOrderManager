@@ -120,11 +120,11 @@ namespace ePrintOrderManager
                     string str = this.comboBox1.Text.Trim();
                     if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.com.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("alpha.print2000.cn") >= 0))
                     {
-                        str = "output.print2000.com.cn";
+                        str = "www.c2yy.com";
                     }
                     else if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("beta.print2000.cn") >= 0))
                     {
-                        str = "output.print2000.cn";
+                        str = "www.c2yy.com";
                     }
                     _AddHttp = str;
                     this.label3.Text = "登录信息：登录成功！";
@@ -281,7 +281,7 @@ namespace ePrintOrderManager
         {
             try
             {
-                string[] strArray = new ePrintOrderManager.cn.com.print2000.output.ePrintOutputLogin("http://output.print2000.com.cn/ePrintServer_dynamic/ePrintOutputLogin.asmx") { Timeout = 0x7530 }._BeginInfo(this.comboBox1.Text.Trim());
+                string[] strArray = new ePrintOrderManager.cn.com.print2000.output.ePrintOutputLogin("http://www.c2yy.com/ePrintServer_dynamic/ePrintOutputLogin.asmx") { Timeout = 0x7530 }._BeginInfo(this.comboBox1.Text.Trim());
                 if (strArray[0] != "")
                 {
                     ePrintMain.Outputkey = Outputkey = strArray[0];
@@ -388,7 +388,7 @@ namespace ePrintOrderManager
             try
             {
                 this.ePrintLog.WriteLog("检查新版本,本地版本为:" + ePrintMain.SoftVersion);
-                string[] strArray = new ePrintOrderManager.cn.print2000.update.ePrintOutputLogin("http://output.print2000.com.cn/ePrintServer_dynamic/ePrintOutputLogin.asmx") { Timeout = 0x493e0 }._UpdateInfo();
+                string[] strArray = new ePrintOrderManager.cn.print2000.update.ePrintOutputLogin("http://www.c2yy.com/ePrintServer_dynamic/ePrintOutputLogin.asmx") { Timeout = 0x493e0 }._UpdateInfo();
                 this.ePrintLog.WriteLog("检查新版本,远程版本为:" + strArray[0]);
                 int num = Convert.ToInt32(ePrintMain.SoftVersion.Replace(".", ""));
                 int num2 = Convert.ToInt32(strArray[0].Replace(".", ""));
@@ -823,11 +823,11 @@ namespace ePrintOrderManager
                     this.loginHttp = this.comboBox1.Text.Trim();
                     if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.com.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("alpha.print2000.cn") >= 0))
                     {
-                        this.loginHttp = "output.print2000.com.cn";
+                        this.loginHttp = "www.c2yy.com";
                     }
                     else if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("beta.print2000.cn") >= 0))
                     {
-                        this.loginHttp = "output.print2000.cn";
+                        this.loginHttp = "www.c2yy.com";
                     }
                     this.button1.Enabled = false;
                     this.comboBox1.Enabled = false;
@@ -900,11 +900,11 @@ namespace ePrintOrderManager
                                 this.loginHttp = this.comboBox1.Text.Trim();
                                 if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.com.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("alpha.print2000.cn") >= 0))
                                 {
-                                    this.loginHttp = "output.print2000.com.cn";
+                                    this.loginHttp = "www.c2yy.com";
                                 }
                                 else if ((this.comboBox1.Text.Trim().IndexOf("test.print2000.cn") >= 0) || (this.comboBox1.Text.Trim().IndexOf("beta.print2000.cn") >= 0))
                                 {
-                                    this.loginHttp = "output.print2000.cn";
+                                    this.loginHttp = "www.c2yy.com";
                                 }
                                 this.ePrintLog.WriteLog("尝试自动登录...[" + this.comboBox1.Text + "][" + this.comboBox2.Text + "]");
                                 this.button1.Enabled = false;

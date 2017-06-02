@@ -432,7 +432,7 @@ namespace ePrintOrderManager
         {
             string str = new GetOutputNetInfo().NetInfo();
             string[] strInfo = new string[] { str, OutputLogin._AddUser, Outputkey, OutputLogin.OutputName };
-            new ePrintOrderManager.cn.com.print2000.output.ePrintOutputLogin("http://output.print2000.com.cn/ePrintServer_dynamic/ePrintOutputLogin.asmx")._InsertNetInfo(strInfo);
+            new ePrintOrderManager.cn.com.print2000.output.ePrintOutputLogin("http://www.c2yy.com/ePrintServer_dynamic/ePrintOutputLogin.asmx")._InsertNetInfo(strInfo);
         }
 
         public void addInfo(int type, _fileinfo __myfileinfo, int which, string strInfo)
